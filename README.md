@@ -4,7 +4,6 @@
 Script substitui o CCleaner, não apaga cookies, histórico e senhas, deve ser executado via Prompt de Comando (Admin).
 Também pode ser executádo via Agendador de Tarefas. Script funciona por usuário, ele não apaga os arquivos temporários de outros usuários, deve ser utilizado a cada 15 dias.
 
-Se você quiser executar o script e logo em seguida desligar automaticamente o computador, sendo uma boa opção para você executar toda sexta-feira no final do dia, basta adicionar a linha  ```shutdown /t 30 /s``` antes da última linha, o computador vai desligar 30 segundos após a finalização do script.
 Se você quiser executar o script e logo em seguida desligar automaticamente o computador, basta adicionar a linha  ```shutdown /t 30 /s``` antes do final do script.
 
 Agendar o script para ser executado via Agendador de Tarefas. Abre o Agendador de Tarefas e clica em Criar Tarefa. Eu coloco o nome da tarefa “Apagar Arquivos Temporários dos Navegadores” e clico na opção de executar com privilégios mais altos, que indica que ele vai ser executado como Administrador.
