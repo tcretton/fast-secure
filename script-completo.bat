@@ -1,4 +1,5 @@
 @ SCRIPT para eliminar arquivos temporários - by BABOO 2020
+TITLE SCRIPT para eliminar arquivos temporários
 REM Fecha qualquer instancia do ccleaner
 taskkill /F /IM "ccleaner64.exe"
 taskkill /F /IM "ccleaner.exe"
