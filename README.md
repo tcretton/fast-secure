@@ -1,6 +1,6 @@
 # script-clean-baboo
  Script para a eliminação de arquivos temporários - feito por [Aurélio "Baboo"](baboo.com.br)
- [Clique aqui para o artigo completo](https://www.baboo.com.br/windows-10/conteudo-essencial-windows/script-que-substitui-o-ccleaner/)
+ [Artigo completo](https://www.baboo.com.br/windows-10/conteudo-essencial-windows/script-que-substitui-o-ccleaner/)
 
 Script que substitui o CCleaner
 Esse script não apaga cookies, histórico e senhas, porque eles são importantes e podem ser removidos através do próprio navegador, sendo que ele é um arquivo .bat com pouco mais de 150 linhas.
