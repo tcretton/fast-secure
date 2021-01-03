@@ -1,14 +1,10 @@
  # Script para apagar arquivos temporários - feito por [**Aurélio "Baboo"**](baboo.com.br)
  [Artigo completo](https://www.baboo.com.br/windows-10/conteudo-essencial-windows/script-que-substitui-o-ccleaner/)
 
-Script que substitui o CCleaner, não apaga cookies, histórico e senhas, ele é um arquivo .bat com pouco mais de 150 linhas.
-Script deve ser executado via Prompt de Comando (Admin).
+Script substitui o CCleaner, não apaga cookies, histórico e senhas, deve ser executado via Prompt de Comando (Admin).
 Também pode executá-lo via Agendador de Tarefas.
 
-Os comandos aparecerão na janela do Prompt de Comando enquanto o script estiver em funcionamento, e essa janela se fechará automaticamente quando o script for finalizado.
-Esse script funciona por usuário, ele não apaga os arquivos temporários de outros usuários que eventualmente também utilizem o mesmo computador fazendo login com outro usuário e senha.
-
-O ideal é que esse script seja utilizado uma vez por semana ou a cada 15 dias.
+Script funciona por usuário, ele não apaga os arquivos temporários de outros usuários que eventualmente também utilizem o mesmo computador fazendo login com outro usuário e senha. O ideal é que esse script seja utilizado uma vez por semana ou a cada 15 dias.
 
 Se você quiser executar o script e logo em seguida desligar automaticamente o computador, sendo uma boa opção para você executar toda sexta-feira no final do dia, basta adicionar a linha abaixo antes da última linha dele, e com isso o computador vai ser desligado 30 segundos após a finalização dele.
 
@@ -22,5 +18,4 @@ Esse meu script que substitui o CCleaner pode ser atualizado e melhorado a qualq
 
 Embora ela tenha feito isso através do conhecido antivírus dela, que fica constantemente monitorando tudo que acontece no Windows e por isso ele consegue obter todas as informações que ele quiser sem nenhuma interferência nem conhecimento do usuário, na prática a remoção dos arquivos temporários dos navegadores é algo bastante simples e não exige o uso de qualquer programa para isso, porque isso pode ser feito através do próprio navegador, embora quase ninguém faça isso.
 Então a solução mais simples para isso é o usuário executar um script que apague os arquivos temporários dos navegadores bastando um duplo-clique para isso – e é exatamente isso que eu abordo nesse vídeo.
-Há algum tempo eu criei um script simples que apaga apenas os arquivos de cache dos navegadores Edge Chromium, Firefox, Vivaldi, Brave e do Chrome,
-além dos arquivos temporários do Windows.
+Há algum tempo eu criei um script simples que apaga apenas os arquivos de cache dos navegadores Edge Chromium, Firefox, Vivaldi, Brave e do Chrome, além dos arquivos temporários do Windows.
