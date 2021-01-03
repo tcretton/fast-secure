@@ -3,13 +3,10 @@
  [Artigo completo](https://www.baboo.com.br/windows-10/conteudo-essencial-windows/script-que-substitui-o-ccleaner/)
 
 Script que substitui o CCleaner
-Esse script não apaga cookies, histórico e senhas, porque eles são importantes e podem ser removidos através do próprio navegador, sendo que ele é um arquivo .bat com pouco mais de 150 linhas.
+Esse script não apaga cookies, histórico e senhas, ele é um arquivo .bat com pouco mais de 150 linhas.
+Script deve ser executado via Prompt de Comando (Admin), porque se ele for executado via Prompt de Comando comum alguns comandos não funcionarão e a eliminação dos arquivos será limitada. Você também pode executá-lo via Agendador de Tarefas caso você queira que ele seja executado automaticamente sem intervenção do usuário.
 
-Qualquer um desses scripts deve ser executado via Prompt de Comando (Admin), porque se ele for executado via Prompt de Comando comum alguns comandos não funcionarão e a eliminação dos arquivos será limitada.
-Você também pode executá-lo via Agendador de Tarefas caso você queira que ele seja executado automaticamente sem intervenção do usuário.
-
-Ao executar qualquer um dos scripts, os comandos dele aparecerão na janela do Prompt de Comando enquanto o script estiver em funcionamento, e essa janela se fechará automaticamente assim que o script for finalizado.
-
+Os comandos dele aparecerão na janela do Prompt de Comando enquanto o script estiver em funcionamento, e essa janela se fechará automaticamente assim que o script for finalizado.
 Esse script funciona por usuário, ou seja, ele apaga os arquivos temporários do usuário que executou ele, mas ele não apaga os arquivos temporários de outros usuários que eventualmente também utilizem o mesmo computador fazendo login com outro usuário e senha.
 
 O ideal é que esse script seja utilizado uma vez por semana ou a cada 15 dias, sendo que não existe NENHUMA necessidade de executá-lo diariamente porque isso não vai deixar o seu computador mais rápido.
