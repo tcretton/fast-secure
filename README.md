@@ -1,14 +1,14 @@
  # Script para apagar arquivos temporários - feito por [**Aurélio "Baboo"**](baboo.com.br)
  [Artigo completo](https://www.baboo.com.br/windows-10/conteudo-essencial-windows/script-que-substitui-o-ccleaner/)
 
-Script que substitui o CCleaner
-Esse script não apaga cookies, histórico e senhas, ele é um arquivo .bat com pouco mais de 150 linhas.
-Script deve ser executado via Prompt de Comando (Admin), porque se ele for executado via Prompt de Comando comum alguns comandos não funcionarão e a eliminação dos arquivos será limitada. Você também pode executá-lo via Agendador de Tarefas caso você queira que ele seja executado automaticamente sem intervenção do usuário.
+Script que substitui o CCleaner, não apaga cookies, histórico e senhas, ele é um arquivo .bat com pouco mais de 150 linhas.
+Script deve ser executado via Prompt de Comando (Admin).
+Também pode executá-lo via Agendador de Tarefas.
 
-Os comandos dele aparecerão na janela do Prompt de Comando enquanto o script estiver em funcionamento, e essa janela se fechará automaticamente assim que o script for finalizado.
-Esse script funciona por usuário, ou seja, ele apaga os arquivos temporários do usuário que executou ele, mas ele não apaga os arquivos temporários de outros usuários que eventualmente também utilizem o mesmo computador fazendo login com outro usuário e senha.
+Os comandos aparecerão na janela do Prompt de Comando enquanto o script estiver em funcionamento, e essa janela se fechará automaticamente quando o script for finalizado.
+Esse script funciona por usuário, ele não apaga os arquivos temporários de outros usuários que eventualmente também utilizem o mesmo computador fazendo login com outro usuário e senha.
 
-O ideal é que esse script seja utilizado uma vez por semana ou a cada 15 dias, sendo que não existe NENHUMA necessidade de executá-lo diariamente porque isso não vai deixar o seu computador mais rápido.
+O ideal é que esse script seja utilizado uma vez por semana ou a cada 15 dias.
 
 Se você quiser executar o script e logo em seguida desligar automaticamente o computador, sendo uma boa opção para você executar toda sexta-feira no final do dia, basta adicionar a linha abaixo antes da última linha dele, e com isso o computador vai ser desligado 30 segundos após a finalização dele.
 
