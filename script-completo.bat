@@ -4,7 +4,8 @@ REM Fecha qualquer instancia do ccleaner
 @ECHO OFF
 taskkill /F /IM "ccleaner64.exe"
 taskkill /F /IM "ccleaner.exe"
-color 04
+
+Color 04
 
 REM ******************** WINDOWS ********************
 REM Apaga todas as pastas tempor�rias e arquivos tempor�rios do usu�rio
