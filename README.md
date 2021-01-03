@@ -8,7 +8,8 @@ Script funciona por usuário, ele não apaga os arquivos temporários de outros 
 
 Se você quiser executar o script e logo em seguida desligar automaticamente o computador, sendo uma boa opção para você executar toda sexta-feira no final do dia, basta adicionar a linha abaixo antes da última linha dele, e com isso o computador vai ser desligado 30 segundos após a finalização dele.
 
-:---: ```shutdown /t 30 /s```
+|:---:| 
+|```shutdown /t 30 /s```|
 
 Outra opção é agendar o script para ser executado via Agendador de Tarefas. Então se eu quiser que ele seja executado toda sexta-feira às 17h, por exemplo, a gente abre o Agendador de Tarefas e clica em Criar Tarefa. Eu coloco o nome da tarefa “Apagar Arquivos Temporários dos Navegadores” e clico na opção de executar com privilégios mais altos, que indica que ele vai ser executado como Administrador.
 Daí eu clico em Disparadores e Novo e informo quando o script vai ser executado, que é uma vez a cada duas semanas na sexta-feira às 17h, pois se fosse uma vez por semana eu colocaria UM aqui e depois clico em OK. Em Ações a gente informa o que vai ser executado, e nesse caso vai ser “iniciar um programa”
