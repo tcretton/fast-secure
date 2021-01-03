@@ -1,2 +1,2 @@
 # script-clean-baboo
- SCRIPT PARA ELIMINAÇÃO DE ARQUIVOS TEMPORÁRIOS BABOO 2020
+ Scripst para a eliminação de arquivos temporários Baboo 2020
