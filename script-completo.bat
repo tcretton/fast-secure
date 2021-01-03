@@ -1,6 +1,7 @@
 @ SCRIPT para eliminar arquivos temporários - by BABOO 2020
 TITLE SCRIPT para eliminar arquivos temporarios
 REM Fecha qualquer instancia do ccleaner
+@ECHO OFF
 taskkill /F /IM "ccleaner64.exe"
 taskkill /F /IM "ccleaner.exe"
 color 04
@@ -162,4 +163,5 @@ rmdir /q /s C:\Users\%USERNAME%\AppData\Local\Google\Chrome\"User Data"\"Profile
 rmdir /q /s C:\Users\%USERNAME%\AppData\Local\Google\Chrome\"User Data"\"Profile 2"\GPUCache\
 rmdir /q /s C:\Users\%USERNAME%\AppData\Local\Google\Chrome\"User Data"\"Profile 2"\Storage\ext\
 color 0f
+@ECHO ON
 exit
