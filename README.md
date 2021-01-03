@@ -11,7 +11,7 @@ Esse script funciona por usuário, ou seja, ele apaga os arquivos temporários d
 
 O ideal é que esse script seja utilizado uma vez por semana ou a cada 15 dias, sendo que não existe NENHUMA necessidade de executá-lo diariamente porque isso não vai deixar o seu computador mais rápido.
 
-Se você quiser executar o script e logo em seguida desligar automaticamente o computador, sendo uma boa opção para você executar toda sexta-feira no final do dia, por exemplo, daí basta adicionar a linha abaixo antes da última linha dele, e com isso o computador vai ser desligado 30 segundos após a finalização dele.
+Se você quiser executar o script e logo em seguida desligar automaticamente o computador, sendo uma boa opção para você executar toda sexta-feira no final do dia, basta adicionar a linha abaixo antes da última linha dele, e com isso o computador vai ser desligado 30 segundos após a finalização dele.
 
 ```shutdown /t 30 /s```
 
