@@ -2,7 +2,7 @@
  [Artigo completo](https://www.baboo.com.br/windows-10/conteudo-essencial-windows/script-que-substitui-o-ccleaner/)
 
 Script substitui o CCleaner, não apaga cookies, histórico e senhas, deve ser executado via Prompt de Comando (Admin).
-Também pode ser executádo via Agendador de Tarefas. Script funciona por usuário, ele não apaga os arquivos temporários de outros usuários, deve ser utilizado a cada 15 dias.
+Também pode ser executado via Agendador de Tarefas, funciona por usuário, ele não apaga os arquivos temporários de outros usuários, o ideal érodar a cada 15 dias.
 
 Se você quiser executar o script e logo em seguida desligar automaticamente o computador, basta adicionar a linha  ```shutdown /t 30 /s``` antes do final do script.
 
