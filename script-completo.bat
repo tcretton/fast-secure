@@ -1,10 +1,9 @@
-@ SCRIPT PARA ELIMINAção de aerquivos temporários - by BABOO 2020
-
+@ SCRIPT para eliminar arquivos temporários - by BABOO 2020
+REM Fecha qualquer instancia do ccleaner
 taskkill /F /IM "ccleaner64.exe"
 taskkill /F /IM "ccleaner.exe"
 
 REM ******************** WINDOWS ********************
-
 REM Apaga todas as pastas tempor�rias e arquivos tempor�rios do usu�rio
 takeown /A /R /D Y /F C:\Users\%USERNAME%\AppData\Local\Temp\
 icacls C:\Users\%USERNAME%\AppData\Local\Temp\ /grant administradores:F /T /C
@@ -158,6 +157,4 @@ rmdir /q /s C:\Users\%USERNAME%\AppData\Local\Google\Chrome\"User Data"\"Profile
 rmdir /q /s C:\Users\%USERNAME%\AppData\Local\Google\Chrome\"User Data"\"Profile 2"\"Service Worker"\ScriptCache\
 rmdir /q /s C:\Users\%USERNAME%\AppData\Local\Google\Chrome\"User Data"\"Profile 2"\GPUCache\
 rmdir /q /s C:\Users\%USERNAME%\AppData\Local\Google\Chrome\"User Data"\"Profile 2"\Storage\ext\
-
 exit
-
