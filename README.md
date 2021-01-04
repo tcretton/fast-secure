@@ -2,9 +2,6 @@
  [Artigo completo](https://www.baboo.com.br/windows-10/conteudo-essencial-windows/script-que-substitui-o-ccleaner/)
 
 Script substitui o CCleaner, não apaga cookies, histórico e senhas, deve ser executado via Prompt de Comando (Admin).
-Também pode ser executado via Agendador de Tarefas, funciona por usuário, ele não apaga os arquivos temporários de outros usuários, o ideal érodar a cada 15 dias.
+Também pode ser executado via Agendador de Tarefas, funciona por usuário, ele não apaga os arquivos temporários de outros usuários, o ideal é rodar a cada 15 dias.
 
-Se você quiser executar o script e logo em seguida desligar automaticamente o computador, basta adicionar a linha  ```shutdown /t 30 /s``` antes do final do script.
-
-Agendador de Tarefas. Abre o Agendador de Tarefas e clica em Criar Tarefa. Nome da tarefa “Apagar Arquivos Temporários dos Navegadores” e clico na opção de executar com privilégios mais altos, vai ser executado como Administrador.
-Disparadores e Novo e informo quando o script vai ser executado, que é uma vez a cada duas semanas na sexta-feira às 17h. Em Ações a gente informa o que vai ser executado, e nesse caso vai ser “iniciar um programa” e aqui eu procuro ele e escolho o script.
+Se você quiser executar o script e logo em seguida desligar automaticamente o computador, antes do final do script adicione a linha: ```shutdown /t 30 /s```
