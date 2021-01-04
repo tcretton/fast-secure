@@ -6,6 +6,5 @@ Também pode ser executado via Agendador de Tarefas, funciona por usuário, ele 
 
 Se você quiser executar o script e logo em seguida desligar automaticamente o computador, basta adicionar a linha  ```shutdown /t 30 /s``` antes do final do script.
 
-Agendar o script para ser executado via Agendador de Tarefas. Abre o Agendador de Tarefas e clica em Criar Tarefa. Eu coloco o nome da tarefa “Apagar Arquivos Temporários dos Navegadores” e clico na opção de executar com privilégios mais altos, que indica que ele vai ser executado como Administrador.
-Daí eu clico em Disparadores e Novo e informo quando o script vai ser executado, que é uma vez a cada duas semanas na sexta-feira às 17h, pois se fosse uma vez por semana eu colocaria UM aqui e depois clico em OK. Em Ações a gente informa o que vai ser executado, e nesse caso vai ser “iniciar um programa” e aqui eu procuro ele e escolho o script da pasta Documentos.
-Por fim eu clico em OK e pronto.
+Agendador de Tarefas. Abre o Agendador de Tarefas e clica em Criar Tarefa. Nome da tarefa “Apagar Arquivos Temporários dos Navegadores” e clico na opção de executar com privilégios mais altos, vai ser executado como Administrador.
+Disparadores e Novo e informo quando o script vai ser executado, que é uma vez a cada duas semanas na sexta-feira às 17h. Em Ações a gente informa o que vai ser executado, e nesse caso vai ser “iniciar um programa” e aqui eu procuro ele e escolho o script.
