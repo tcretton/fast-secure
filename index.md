@@ -1,18 +1,10 @@
-# Script para apagar arquivos temporários - [**Aurélio "Baboo"**](baboo.com.br)
+# Script para apagar arquivos temporários - [**Aurélio "Baboo"**]
  [Artigo completo](https://www.baboo.com.br/windows-10/conteudo-essencial-windows/script-que-substitui-o-ccleaner/)
 
 Script substitui o CCleaner, não apaga cookies, histórico e senhas, deve ser executado via Prompt de Comando (Admin).
 Também pode ser executado via Agendador de Tarefas, funciona por usuário, ele não apaga os arquivos temporários de outros usuários, o ideal é rodar a cada 15 dias.
 
 Se você quiser executar o script e logo em seguida desligar automaticamente o computador, antes do final do script adicione a linha: ```shutdown /t 30 /s```
-
-
-
-## Welcome to GitHub Pages - Script p
-
-You can use the [editor on GitHub](https://github.com/tcretton/scripts-baboo/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
