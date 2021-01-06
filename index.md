@@ -1,4 +1,4 @@
-# Script para apagar arquivos temporários - [**Aurélio "Baboo"**]
+# Script para apagar arquivos temporários - [**Aurélio "Baboo"**]()
  [Artigo completo](https://www.baboo.com.br/windows-10/conteudo-essencial-windows/script-que-substitui-o-ccleaner/)
 
 Script substitui o CCleaner, não apaga cookies, histórico e senhas, deve ser executado via Prompt de Comando (Admin).
