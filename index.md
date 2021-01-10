@@ -1,4 +1,4 @@
-# Script para apagar arquivos temporários - [**Aurélio "Baboo"**]()
+# Script para apagar arquivos temporários - [**"Baboo"**]()
  [Artigo Baboo](https://www.baboo.com.br/windows-10/conteudo-essencial-windows/script-que-substitui-o-ccleaner/)
 
 Script substitui o CCleaner, não apaga cookies, histórico e senhas, deve ser executado como Admin.
@@ -6,7 +6,7 @@ Pode ser executado via Agendador de Tarefas, funciona por usuário, é ideal rod
 Se quiser executar o script e logo em seguida desligar automaticamente, antes do final do script adicione a linha:
 `shutdown /t 30 /s`
 
-1 - Analise & Repair - HD & SSD
+## 1 - Analise & Repair - HD & SSD ##
 - [Western Digital Data LifeGuard](https://www.windowsrapidoeseguro.com.br/1/)
 - Chkdsk
 `CHKDSK /R <Enter>`
@@ -19,6 +19,18 @@ Informe Login e Senha
 `sfc /scannow /offbootdir=C:\ /offwindir=C:\windows <Enter>`
 - Dism 
 ``DISM (DISM /Online /Cleanup-image /Restorehealth``
+
+## 2 - Clean & Remove - Bloatware, Adware, Malware##
+- Limpeza de Disco
+- script clean
+- Adwcleaner
+- Desinstalar programas desnecessários
+- Verificação Tripla de Malware On Line
+TrendMicro Housecall - HouseCall / KVRT Kapersky - KVRT / ESET Online Scanner - ESET Scanner
+Instalar Antivirus Panda free ou Kapersky
+- Bloquear Propaganda & URL
+Ublock Origin / Ublock Extra / Traffic Light Bit Defender / Kapersky Protection - link / Windows Defender Browser Protection / MalwareBytes Browser Guard MalwareBytes
+- Desfragmentar Defragler
 
 ### Markdown
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
