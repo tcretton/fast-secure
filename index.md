@@ -6,7 +6,7 @@ Pode ser executado via Agendador de Tarefas, funciona por usuário, é ideal rod
 Se quiser executar o script e logo em seguida desligar automaticamente, antes do final do script adicione a linha:
 `shutdown /t 30 /s`
 
-## 1 - Analise & Repair - HD & SSD ##
+## **1 - Analise & Repair - HD & SSD** ##
 - [Western Digital Data LifeGuard](https://www.windowsrapidoeseguro.com.br/1/)
 - Chkdsk
 `CHKDSK /R <Enter>`
