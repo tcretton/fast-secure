@@ -7,7 +7,7 @@ Também pode ser executado via Agendador de Tarefas, funciona por usuário, ele 
 Se você quiser executar o script e logo em seguida desligar automaticamente o computador, antes do final do script adicione a linha: ```shutdown /t 30 /s```
 
 1 - Analise & Repair - HD & SSD
-- [Western Digital Data LifeGuard] (https://www.youtube.com/redirect?q=https%3A%2F%2Fwww.windowsrapidoeseguro.com.br%2F1&v=d33k2Ajmemw&event=video_description&redir_token=daEiXR54t5j48qvqywH8ae0t6x58MTU4MTc5MTYxNUAxNTgxNzA1MjE1)
+- [Western Digital Data LifeGuard](https://www.youtube.com/redirect?q=https%3A%2F%2Fwww.windowsrapidoeseguro.com.br%2F1&v=d33k2Ajmemw&event=video_description&redir_token=daEiXR54t5j48qvqywH8ae0t6x58MTU4MTc5MTYxNUAxNTgxNzA1MjE1)
 - Chkdsk
 ```CHKDSK /R <Enter>```
 - SFC (Online)
