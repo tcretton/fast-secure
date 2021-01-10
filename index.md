@@ -6,6 +6,17 @@ Também pode ser executado via Agendador de Tarefas, funciona por usuário, ele 
 
 Se você quiser executar o script e logo em seguida desligar automaticamente o computador, antes do final do script adicione a linha: ```shutdown /t 30 /s```
 
+1 - Analise & Repair - HD & SSD
+- Western Digital Data LifeGuard - Link
+- Chkdsk
+```CHKDSK /R <Enter>```
+- SFC (Online)
+```SFC /Scannow <Enter>```
+- SFC (Off-line)
+Configurações > Atualização e Segurança > Recuperação > Reiniciar Agora…. Solução de Problemas > Opções Avançadas > Prompt de Comando…..<Informe Login e Senha> BCDEDIT <Enter>
+Localize a Letra da partição onde está o Windows (systemroot \Windows) <C:>
+sfc /scannow /offbootdir=<Letra Partição>:\ /offwindir=<Letra Partição>:\windows <Enter> (Aguarde...)
+- DISM (DISM /Online /Cleanup-image /Restorehealth <Enter>)
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
