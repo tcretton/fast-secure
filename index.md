@@ -3,26 +3,23 @@
 
 Script substitui o CCleaner, não apaga cookies, histórico e senhas, deve ser executado como Admin.
 Pode ser executado via Agendador de Tarefas, funciona por usuário, é ideal rodar a cada 15 dias.
-Se quiser executar o script e logo em seguida desligar automaticamente, antes do final do script adicione a linha:
-`shutdown /t 30 /s`
+Se quiser executar o script e logo em seguida desligar automaticamente, antes do final do script adicione a linha: `shutdown /t 30 /s`
 
 ## **1 - Analise & Repair - HD & SSD** ##
 - [Western Digital Data LifeGuard](https://www.windowsrapidoeseguro.com.br/1/)
-- Chkdsk
-`CHKDSK /R <Enter>`
-- SFC Online
-`SFC /Scannow <Enter>`
-- SFC (Off-line)
-Configurações > Atualização e Segurança > Recuperação > Reiniciar Agora…. Solução de Problemas > Opções Avançadas > Prompt de Comando..
-Informe Login e Senha
-``BCDEDIT``
+- Chkdsk `CHKDSK /R <Enter>`
+- SFC Online `SFC /Scannow <Enter>`
+- SFC Off-line
+Configurações > Atualização e Segurança > Recuperação > Reiniciar Agora...
+Solução de Problemas > Opções Avançadas > Prompt de Comando...
+Informe Login e Senha ``BCDEDIT``
 `sfc /scannow /offbootdir=C:\ /offwindir=C:\windows <Enter>`
 - Dism 
-``DISM (DISM /Online /Cleanup-image /Restorehealth``
+``DISM (DISM /Online /Cleanup-image /Restorehealth <Enter>``
 
-## 2 - Clean & Remove - Bloatware, Adware, Malware##
+## **2 - Clean & Remove - Bloatware, Adware, Malware** ##
 - Limpeza de Disco
-- script clean
+- script-clean
 - Adwcleaner
 - Desinstalar programas desnecessários
 - Verificação Tripla de Malware On Line
@@ -51,10 +48,3 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 [Link](url) and ![Image](src)
 ```
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tcretton/scripts-baboo/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
