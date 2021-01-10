@@ -4,21 +4,22 @@
 Script substitui o CCleaner, não apaga cookies, histórico e senhas, deve ser executado via Prompt de Comando (Admin).
 Também pode ser executado via Agendador de Tarefas, funciona por usuário, ele não apaga os arquivos temporários de outros usuários, o ideal é rodar a cada 15 dias.
 
-Se você quiser executar o script e logo em seguida desligar automaticamente o computador, antes do final do script adicione a linha: ```shutdown /t 30 /s```
+Se você quiser executar o script e logo em seguida desligar automaticamente o computador, antes do final do script adicione a linha: `shutdown /t 30 /s`
 
 1 - Analise & Repair - HD & SSD
 - [Western Digital Data LifeGuard](https://www.windowsrapidoeseguro.com.br/1/)
 - Chkdsk
-```CHKDSK /R <Enter>```
-- SFC (Online)
-```SFC /Scannow <Enter>```
+`CHKDSK /R <Enter>`
+- SFC Online
+`SFC /Scannow <Enter>`
 - SFC (Off-line)
 Configurações > Atualização e Segurança > Recuperação > Reiniciar Agora…. Solução de Problemas > Opções Avançadas > Prompt de Comando…..<Informe Login e Senha> BCDEDIT <Enter>
 Localize a Letra da partição onde está o Windows (systemroot \Windows) <C:>
-sfc /scannow /offbootdir=<Letra Partição>:\ /offwindir=<Letra Partição>:\windows <Enter> (Aguarde...)
-- DISM (DISM /Online /Cleanup-image /Restorehealth <Enter>)
-### Markdown
+`sfc /scannow /offbootdir=<Letra Partição>:\ /offwindir=<Letra Partição>:\windows <Enter>`
+- Dism 
+``DISM (DISM /Online /Cleanup-image /Restorehealth``
 
+### Markdown
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
