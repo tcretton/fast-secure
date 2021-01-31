@@ -7,15 +7,23 @@ Se quiser executar o script e logo em seguida desligar automaticamente, antes do
 
 ## **1 - Analise & Repair - HD & SSD** ##
 - [Western Digital Data LifeGuard](https://www.windowsrapidoeseguro.com.br/1/)
-- Chkdsk `CHKDSK /R <Enter>`
+- Chkdsk
+```
+CHKDSK /R <Enter>
+```
 - SFC Online `SFC /Scannow <Enter>`
 - SFC Off-line
 Configurações > Atualização e Segurança > Recuperação > Reiniciar Agora...
 Solução de Problemas > Opções Avançadas > Prompt de Comando...
-Informe Login e Senha ``BCDEDIT``
-`sfc /scannow /offbootdir=C:\ /offwindir=C:\windows <Enter>`
+Informe Login e Senha:
+```
+BCDEDIT
+sfc /scannow /offbootdir=C:\ /offwindir=C:\windows <Enter>
+```
 - Dism 
-``DISM (DISM /Online /Cleanup-image /Restorehealth <Enter>``
+```
+DISM (DISM /Online /Cleanup-image /Restorehealth <Enter>
+```
 
 ## **2 - Clean & Remove - Bloatware, Adware, Malware** ##
 - Limpeza de Disco
@@ -29,22 +37,39 @@ Informe Login e Senha ``BCDEDIT``
 Ublock Origin / Ublock Extra / Traffic Light Bit Defender / Kapersky Protection - link / Windows Defender Browser Protection / MalwareBytes Browser Guard MalwareBytes
 - Desfragmentar Defragler
 
-### Markdown
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## **3 - Bloquear sites de download** ##
+Edite o arquivo `hosts` que esta na pasta `C:\Windows\System32\drivers\etc`
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-[Link](url) and ![Image](src)
+```
+#IPv4
+127.0.0.1   www.baixaki.com.br
+127.0.0.1   baixaki.com.br
+127.0.0.1   superdownloads.com.br
+127.0.0.1   www.superdownloads.com.br
+127.0.0.1   superd.com.br
+127.0.0.1   www.superd.com.br
+127.0.0.1   ultradownloads.com.br
+127.0.0.1   www.ultradownloads.com.br
+127.0.0.1   download.com
+127.0.0.1   www.download.com
+127.0.0.1   softpedia.com
+127.0.0.1   www.softpedia.com
+127.0.0.1   softonic.com
+127.0.0.1   www.softonic.com
+ 
+# IPv6
+fe80::1%lo0   www.baixaki.com.br
+fe80::1%lo0   baixaki.com.br
+fe80::1%lo0   superdownloads.com.br
+fe80::1%lo0   www.superdownloads.com.br
+fe80::1%lo0   superd.com.br
+fe80::1%lo0   www.superd.com.br
+fe80::1%lo0   ultradownloads.com.br
+fe80::1%lo0   www.ultradownloads.com.br
+fe80::1%lo0   download.com
+fe80::1%lo0   www.download.com
+fe80::1%lo0   softpedia.com
+fe80::1%lo0   www.softpedia.com
+fe80::1%lo0   softonic.com
+fe80::1%lo0   www.softonic.com
 ```
