@@ -24,7 +24,7 @@ Informe Login e Senha ``BCDEDIT``
 - Desinstalar programas desnecessários
 - Verificação Tripla de Malware On Line
 [TrendMicro Housecall - HouseCall](https://www.trendmicro.com/pt_br/forHome/products/housecall.html) / [KVRT Kapersky - KVRT](https://www.kaspersky.com/downloads/thank-you/free-virus-removal-tool) / [ESET Online Scanner - ESET Scanner](https://www.eset.com/br/antivirus-domestico/online-scanner/)
-Instalar Antivirus Panda free ou Kapersky
+- Instalar Antivirus Panda free ou Kapersky
 - Bloquear Propaganda & URL
 Ublock Origin / Ublock Extra / Traffic Light Bit Defender / Kapersky Protection - link / Windows Defender Browser Protection / MalwareBytes Browser Guard MalwareBytes
 - Desfragmentar Defragler
