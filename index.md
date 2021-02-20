@@ -1,5 +1,5 @@
 # [Script para apagar arquivos temporários - "Baboo"](https://github.com/tcretton/fast-secure)
- [Artigo Baboo](https://www.baboo.com.br/windows-10/conteudo-essencial-windows/script-que-substitui-o-ccleaner/)
+ [Fonte: Artigo Baboo.com.br](https://www.baboo.com.br/windows-10/conteudo-essencial-windows/script-que-substitui-o-ccleaner/)
 
 Script substitui o CCleaner, não apaga cookies, histórico e senhas, deve ser executado como Admin.
 Pode ser executado via Agendador de Tarefas, funciona por usuário, é ideal rodar a cada 15 dias.
