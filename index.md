@@ -1,4 +1,4 @@
-# Passo a passo pra manter Windows Rápido e Seguro
+# Passo a passo para Windows Rápido e Seguro
 
 ## **1 - Analise & Repair - HD & SSD** ##
 - [Western Digital Data LifeGuard](https://www.windowsrapidoeseguro.com.br/1/)
