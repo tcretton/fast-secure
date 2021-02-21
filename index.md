@@ -1,9 +1,4 @@
-# [Script para apagar arquivos temporários - "Baboo"](https://github.com/tcretton/fast-secure)
- [Fonte: Artigo Baboo.com.br](https://www.baboo.com.br/windows-10/conteudo-essencial-windows/script-que-substitui-o-ccleaner/)
-
-Script substitui o CCleaner, não apaga cookies, histórico e senhas, deve ser executado como Admin.
-Pode ser executado via Agendador de Tarefas, funciona por usuário, é ideal rodar a cada 15 dias.
-Se quiser executar o script e logo em seguida desligar automaticamente, antes do final do script adicione a linha: `shutdown /t 30 /s`
+#
 
 ## **1 - Analise & Repair - HD & SSD** ##
 - [Western Digital Data LifeGuard](https://www.windowsrapidoeseguro.com.br/1/)
@@ -36,6 +31,13 @@ DISM (DISM /Online /Cleanup-image /Restorehealth <Enter>
 - Bloquear Propaganda & URL
 Ublock Origin / Ublock Extra / Traffic Light Bit Defender / Kapersky Protection - link / Windows Defender Browser Protection / MalwareBytes Browser Guard MalwareBytes
 - Desfragmentar Defragler
+
+### [Script para apagar arquivos temporários - "Baboo"](https://github.com/tcretton/fast-secure)
+ [Fonte: Artigo Baboo.com.br](https://www.baboo.com.br/windows-10/conteudo-essencial-windows/script-que-substitui-o-ccleaner/)
+
+Script substitui o CCleaner, não apaga cookies, histórico e senhas, deve ser executado como Admin.
+Pode ser executado via Agendador de Tarefas, funciona por usuário, é ideal rodar a cada 15 dias.
+Se quiser executar o script e logo em seguida desligar automaticamente, antes do final do script adicione a linha: `shutdown /t 30 /s`
 
 ## **3 - Bloquear sites de download** ##
 Edite o arquivo `hosts` que esta na pasta `C:\Windows\System32\drivers\etc`
