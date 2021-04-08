@@ -6,7 +6,8 @@
 ```
 CHKDSK /R <Enter>
 ```
-- SFC Online `SFC /Scannow <Enter>`
+- SFC Online
+`SFC /Scannow <Enter>`
 - SFC Off-line
 Configurações > Atualização e Segurança > Recuperação > Reiniciar Agora...
 Solução de Problemas > Opções Avançadas > Prompt de Comando...
@@ -17,7 +18,8 @@ sfc /scannow /offbootdir=C:\ /offwindir=C:\windows <Enter>
 ```
 - Dism 
 ```
-DISM (DISM /Online /Cleanup-image /Restorehealth <Enter>
+DISM
+DISM /Online /Cleanup-image /Restorehealth <Enter>
 ```
 
 ## **2 - Clean & Remove - Bloatware, Adware, Malware** ##
