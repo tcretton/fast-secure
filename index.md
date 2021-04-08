@@ -1,5 +1,4 @@
 ## Passo a passo para Windows Rápido e Seguro
-
 ## **1 - Analise & Repair - HD & SSD** ##
 - [Western Digital Data LifeGuard](https://www.windowsrapidoeseguro.com.br/1/)
 - Chkdsk
@@ -16,23 +15,22 @@ Solução de Problemas > Opções Avançadas > Prompt de Comando...
 Informe Login e Senha:
 - BCDEDIT
 ```
-BCDEDIT
 sfc /scannow /offbootdir=C:\ /offwindir=C:\windows <Enter>
 ```
 - Dism 
 ```
-DISM
 DISM /Online /Cleanup-image /Restorehealth <Enter>
 ```
-
 ## **2 - Clean & Remove - Bloatware, Adware, Malware** ##
 - Limpeza de Disco
 - [script-clean](https://github.com/tcretton/fast-secure)
 - Adwcleaner
 - Desinstalar programas desnecessários
 - Verificação Tripla de Malware On Line
-[TrendMicro Housecall - HouseCall](https://www.trendmicro.com/pt_br/forHome/products/housecall.html) / [KVRT Kapersky - KVRT](https://www.kaspersky.com/downloads/thank-you/free-virus-removal-tool) / [ESET Online Scanner - ESET Scanner](https://www.eset.com/br/antivirus-domestico/online-scanner/)
-- Instalar Antivirus Panda free ou Kapersky
+[TrendMicro Housecall - HouseCall](https://www.trendmicro.com/pt_br/forHome/products/housecall.html)
+[KVRT Kapersky - KVRT](https://www.kaspersky.com/downloads/thank-you/free-virus-removal-tool)
+[ESET Online Scanner - ESET Scanner](https://www.eset.com/br/antivirus-domestico/online-scanner/)
+- Instalar Antivirus [Panda free](https://www.pandasecurity.com/pt/homeusers/free-antivirus/) ou [Kapersky](https://www.kaspersky.com.br/free-antivirus)
 - Bloquear Propaganda & URL
 Ublock Origin / Ublock Extra / Traffic Light Bit Defender / Kapersky Protection - link / Windows Defender Browser Protection / MalwareBytes Browser Guard MalwareBytes
 - Desfragmentar Defragler
