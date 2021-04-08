@@ -7,11 +7,14 @@
 CHKDSK /R <Enter>
 ```
 - SFC Online
-`SFC /Scannow <Enter>`
+```
+SFC /Scannow <Enter>
+```
 - SFC Off-line
 Configurações > Atualização e Segurança > Recuperação > Reiniciar Agora...
 Solução de Problemas > Opções Avançadas > Prompt de Comando...
 Informe Login e Senha:
+- BCDEDIT
 ```
 BCDEDIT
 sfc /scannow /offbootdir=C:\ /offwindir=C:\windows <Enter>
